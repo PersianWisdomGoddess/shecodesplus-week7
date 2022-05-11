@@ -154,3 +154,17 @@ li {
 .weather-forecast-temperature-max {
   font-weight: bold;
 }
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.icon-up {
+  margin-bottom: 10%;
+}
