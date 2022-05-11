@@ -1,0 +1,156 @@
+.mainContainer {
+  border: 4px solid #757575;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 60px;
+  border-radius: 10px;
+  background: white;
+}
+
+.boxContainer {
+  border: 1.5px solid #757575;
+  padding: 30px;
+  border-radius: 10px;
+  color: #565766;
+}
+
+.iconLocation {
+  color: #5b6275;
+  font-size: 30px;
+}
+
+.iconCloudSun {
+  color: #5b6275;
+  font-size: 60px;
+}
+
+.iconCloud {
+  display: block;
+  text-align: center;
+  color: #5b6275;
+  font-size: 30px;
+  width: 100%;
+}
+
+.iconShowersHeavy {
+  display: block;
+  text-align: center;
+  color: #5b6275;
+  font-size: 30px;
+  width: 100%;
+}
+
+.iconCloudSun1 {
+  display: block;
+  text-align: center;
+  color: #5b6275;
+  font-size: 30px;
+  width: 100%;
+}
+
+.title-1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: solid #565766;
+}
+
+.title-2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: solid #565766;
+}
+
+.paragraph-1 {
+  text-align: center;
+  font-size: 18px;
+  color: solid black;
+  opacity: 70%;
+}
+
+.paragraph-2 {
+  vertical-align: text-top;
+  font-size: 18px;
+  color: solid #565766;
+}
+
+.nearbyLocationsButton {
+  margin: 30px auto;
+  padding: 10px 20px;
+  border: 1px solid #757575;
+  background: white;
+  color: #151515;
+  border-radius: 30px;
+}
+
+.nearbyLocationsButton:hover {
+  cursor: pointer;
+}
+
+.footer {
+  font-size: 0.8em;
+  opacity: 70%;
+  text-align: center;
+}
+
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 13px;
+  padding-bottom: 8px;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: rgb(33, 33, 33);
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+  color: rgb(33, 33, 33);
+  padding-bottom: 8px;
+}
+
+.weather-forecast-temperature-max {
+  font-weight: bold;
+}
